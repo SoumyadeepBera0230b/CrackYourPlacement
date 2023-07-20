@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class move_zeroes {
     public static void main(String[] args) {
         int arr[] = { 1, 2, 0, 0, 2, 0, 4 };
