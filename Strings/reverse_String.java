@@ -22,7 +22,6 @@ public class reverse_String {
                     joined_str += " ";
                 }
             }
-
         }
         System.out.println(joined_str.length());
         return joined_str;
