@@ -44,7 +44,7 @@ class remove_dublicate_from_sorted_arr {
         System.out.println(Arrays.toString(nums));
 
         for (int i = 0; i < nums.length; i++) {
-            if (nums[i] > 0) {
+            if (nums[i] != inf) {
                 cnt += 1;
             }
         }
