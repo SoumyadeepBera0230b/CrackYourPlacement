@@ -1,4 +1,3 @@
-package Mathematical_Problems;
 
 public class missing_number {
     public static void main(String[] args) {
