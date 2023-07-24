@@ -1,4 +1,3 @@
-package Mathematical_Problems;
 
 import java.util.Arrays;
 
