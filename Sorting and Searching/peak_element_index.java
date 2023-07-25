@@ -14,7 +14,7 @@ class Solution {
 
         int i = 0;
         while (i < nums.length) {
-            if (current_sum <= nums[i]) {
+            if (current_sum < nums[i]) {
                 current_sum = nums[i];
             }
 
