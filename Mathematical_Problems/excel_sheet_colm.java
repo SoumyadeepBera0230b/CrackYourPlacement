@@ -1,14 +1,10 @@
 public class excel_sheet_colm {
     public static void main(String[] args) {
-        Solution ans = new Solution();
-        String res = ans.convertToTitle(30);
+        String res = convertToTitle(30);
         System.out.println(res);
     }
 
-}
-
-class Solution {
-    public String convertToTitle(int columnNumber) {
+    public static String convertToTitle(int columnNumber) {
         StringBuilder sb = new StringBuilder();
 
         while (columnNumber > 0) {

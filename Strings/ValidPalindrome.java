@@ -1,6 +1,6 @@
 package Strings;
 
-public class ValidParindrome {
+public class ValidPalindrome {
     public static void main(String[] args) {
         String s = "abcdecba";
         boolean res = valid_palindrome(s);
