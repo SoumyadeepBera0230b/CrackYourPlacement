@@ -58,25 +58,32 @@ public class myLL {
 
     public static void main(String args[]) {
         myLL list = new myLL();
-        list.add(5);
-        list.add(5);
-        list.add(99);
-        list.addLast(4);
-        list.addLast(4);
-        list.addLast(4);
-        list.addLast(4);
+        list.add(3);
+        list.add(2);
+        list.add(11);
+        list.add(10);
+        list.add(15);
+        list.add(12);
         list.show(head);
         list.length();
-        removeDublicates rd = new removeDublicates();
-        Node ans1 = rd.removeDub(head);
-        list.show(ans1);
-        list.show(head);
-        reverseElements r = new reverseElements();
-        Node res = r.reverseList(head);
-        list.show(res);
-        middleElement me = new middleElement();
-        Node ans = me.midElement(res);
-        list.show(ans);
+        // binary_to_decimal bd = new binary_to_decimal();
+        // bd.decimal(head);
+        // palindrome_linkedList pa = new palindrome_linkedList();
+        // boolean bol = pa.isPalindrome(head);
+        // System.out.println(bol);
+        // removeDublicates rd = new removeDublicates();
+        // Node ans1 = rd.removeDub(head);
+        // list.show(ans1);
+        // list.show(head);
+        // reverseElements r = new reverseElements();
+        // Node res = r.reverseList(head);
+        // list.show(res);
+        // middleElement me = new middleElement();
+        // Node ans = me.midElement(res);
+        // list.show(ans);
+        delete_node_having_greater_value_on_right d = new delete_node_having_greater_value_on_right();
+        Node ans2 = d.compute(head);
+        list.show(ans2);
 
     }
 
