@@ -9,7 +9,7 @@ public class spiral_matrix {
         int top = 0, bottom = matrix.length;
 
         int index = 0;
-        while (left < right && top < bottom) {
+        while ((left < right) && (top < bottom)) {
             for (int i = left; i < right; i++) {
                 res[index] = matrix[top][i];
                 index += 1;
@@ -21,6 +21,10 @@ public class spiral_matrix {
                 index += 1;
             }
             right -= 1;
+
+            if (!(left < right) && !(top < bottom)) {
+                break;
+            }
 
             for (int i = right - 1; i > left - 1; i--) {
                 res[index] = matrix[bottom - 1][i];
@@ -39,13 +43,5 @@ public class spiral_matrix {
             System.out.println(Arrays.toString(res));
         }
 
-        String name = "soumya";
-        upper(name);
-
-    }
-
-    public static String upper(String name) {
-        System.out.println((char) (name.charAt(0) - 32));
-        return "";
     }
 }
